@@ -2,7 +2,9 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        FlipCoin obj = new FlipCoin();
-        obj.flipcoin();
+        FlipCoin flipCoin = new FlipCoin();
+        flipCoin.flipcoin();
+        LeapYear leapYearChecker = new LeapYear();
+        leapYearChecker.leapYearCheck();
     }
 }
